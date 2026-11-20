@@ -18,6 +18,12 @@
 #define START_CO_X		152
 #define START_CO_Y		112
 
+typedef enum{
+	BUTTON_LEFT = 0,
+	BUTTON_CENTER,
+	BUTTON_RIGHT,
+}button_type_e;
+
 typedef struct{
 	uint8_t cell_x;
 	uint8_t cell_y;

@@ -39,7 +39,7 @@ int main(void)
 
 	//Initialisation du port de la led Verte
 	BSP_GPIO_pin_config(LED_GREEN_GPIO, LED_GREEN_PIN, GPIO_MODE_OUTPUT_PP,GPIO_NOPULL,GPIO_SPEED_FREQ_HIGH,GPIO_NO_AF);
-
+	RAMIO_init();
 
 	while(1)	//Boucle de tâche de fond
 	{
